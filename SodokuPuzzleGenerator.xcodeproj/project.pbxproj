@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FE7BD09F2C9CC7DD0077DECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7BD0852C9CC7DA0077DECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7BD08C2C9CC7DA0077DECA;
+			remoteInfo = SodokuPuzzleGenerator;
+		};
+		FE7BD0A92C9CC7DD0077DECA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE7BD0852C9CC7DA0077DECA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE7BD08C2C9CC7DA0077DECA;
+			remoteInfo = SodokuPuzzleGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE7BD08D2C9CC7DA0077DECA /* SodokuPuzzleGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SodokuPuzzleGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7BD09E2C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodokuPuzzleGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7BD0A82C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SodokuPuzzleGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FE7BD08F2C9CC7DA0077DECA /* SodokuPuzzleGenerator */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SodokuPuzzleGenerator;
+			sourceTree = "<group>";
+		};
+		FE7BD0A12C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SodokuPuzzleGeneratorTests;
+			sourceTree = "<group>";
+		};
+		FE7BD0AB2C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SodokuPuzzleGeneratorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7BD08A2C9CC7DA0077DECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7BD09B2C9CC7DD0077DECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7BD0A52C9CC7DD0077DECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7BD0842C9CC7DA0077DECA = {
+			isa = PBXGroup;
+			children = (
+				FE7BD08F2C9CC7DA0077DECA /* SodokuPuzzleGenerator */,
+				FE7BD0A12C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests */,
+				FE7BD0AB2C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests */,
+				FE7BD08E2C9CC7DA0077DECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7BD08E2C9CC7DA0077DECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7BD08D2C9CC7DA0077DECA /* SodokuPuzzleGenerator.app */,
+				FE7BD09E2C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests.xctest */,
+				FE7BD0A82C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7BD08C2C9CC7DA0077DECA /* SodokuPuzzleGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7BD0B22C9CC7DD0077DECA /* Build configuration list for PBXNativeTarget "SodokuPuzzleGenerator" */;
+			buildPhases = (
+				FE7BD0892C9CC7DA0077DECA /* Sources */,
+				FE7BD08A2C9CC7DA0077DECA /* Frameworks */,
+				FE7BD08B2C9CC7DA0077DECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FE7BD08F2C9CC7DA0077DECA /* SodokuPuzzleGenerator */,
+			);
+			name = SodokuPuzzleGenerator;
+			packageProductDependencies = (
+			);
+			productName = SodokuPuzzleGenerator;
+			productReference = FE7BD08D2C9CC7DA0077DECA /* SodokuPuzzleGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE7BD09D2C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7BD0B52C9CC7DD0077DECA /* Build configuration list for PBXNativeTarget "SodokuPuzzleGeneratorTests" */;
+			buildPhases = (
+				FE7BD09A2C9CC7DD0077DECA /* Sources */,
+				FE7BD09B2C9CC7DD0077DECA /* Frameworks */,
+				FE7BD09C2C9CC7DD0077DECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7BD0A02C9CC7DD0077DECA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FE7BD0A12C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests */,
+			);
+			name = SodokuPuzzleGeneratorTests;
+			packageProductDependencies = (
+			);
+			productName = SodokuPuzzleGeneratorTests;
+			productReference = FE7BD09E2C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE7BD0A72C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7BD0B82C9CC7DD0077DECA /* Build configuration list for PBXNativeTarget "SodokuPuzzleGeneratorUITests" */;
+			buildPhases = (
+				FE7BD0A42C9CC7DD0077DECA /* Sources */,
+				FE7BD0A52C9CC7DD0077DECA /* Frameworks */,
+				FE7BD0A62C9CC7DD0077DECA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE7BD0AA2C9CC7DD0077DECA /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FE7BD0AB2C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests */,
+			);
+			name = SodokuPuzzleGeneratorUITests;
+			packageProductDependencies = (
+			);
+			productName = SodokuPuzzleGeneratorUITests;
+			productReference = FE7BD0A82C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7BD0852C9CC7DA0077DECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FE7BD08C2C9CC7DA0077DECA = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					FE7BD09D2C9CC7DD0077DECA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FE7BD08C2C9CC7DA0077DECA;
+					};
+					FE7BD0A72C9CC7DD0077DECA = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = FE7BD08C2C9CC7DA0077DECA;
+					};
+				};
+			};
+			buildConfigurationList = FE7BD0882C9CC7DA0077DECA /* Build configuration list for PBXProject "SodokuPuzzleGenerator" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7BD0842C9CC7DA0077DECA;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE7BD08E2C9CC7DA0077DECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7BD08C2C9CC7DA0077DECA /* SodokuPuzzleGenerator */,
+				FE7BD09D2C9CC7DD0077DECA /* SodokuPuzzleGeneratorTests */,
+				FE7BD0A72C9CC7DD0077DECA /* SodokuPuzzleGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7BD08B2C9CC7DA0077DECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7BD09C2C9CC7DD0077DECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7BD0A62C9CC7DD0077DECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7BD0892C9CC7DA0077DECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7BD09A2C9CC7DD0077DECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE7BD0A42C9CC7DD0077DECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE7BD0A02C9CC7DD0077DECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7BD08C2C9CC7DA0077DECA /* SodokuPuzzleGenerator */;
+			targetProxy = FE7BD09F2C9CC7DD0077DECA /* PBXContainerItemProxy */;
+		};
+		FE7BD0AA2C9CC7DD0077DECA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE7BD08C2C9CC7DA0077DECA /* SodokuPuzzleGenerator */;
+			targetProxy = FE7BD0A92C9CC7DD0077DECA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FE7BD0B02C9CC7DD0077DECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7BD0B12C9CC7DD0077DECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FE7BD0B32C9CC7DD0077DECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SodokuPuzzleGenerator/SodokuPuzzleGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SodokuPuzzleGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.SodokuPuzzleGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FE7BD0B42C9CC7DD0077DECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SodokuPuzzleGenerator/SodokuPuzzleGenerator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SodokuPuzzleGenerator/Preview Content\"";
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.SodokuPuzzleGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FE7BD0B62C9CC7DD0077DECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.SodokuPuzzleGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodokuPuzzleGenerator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SodokuPuzzleGenerator";
+			};
+			name = Debug;
+		};
+		FE7BD0B72C9CC7DD0077DECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.SodokuPuzzleGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SodokuPuzzleGenerator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SodokuPuzzleGenerator";
+			};
+			name = Release;
+		};
+		FE7BD0B92C9CC7DD0077DECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.SodokuPuzzleGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SodokuPuzzleGenerator;
+			};
+			name = Debug;
+		};
+		FE7BD0BA2C9CC7DD0077DECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SP86DZAJ6F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.npc.SodokuPuzzleGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SodokuPuzzleGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7BD0882C9CC7DA0077DECA /* Build configuration list for PBXProject "SodokuPuzzleGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7BD0B02C9CC7DD0077DECA /* Debug */,
+				FE7BD0B12C9CC7DD0077DECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7BD0B22C9CC7DD0077DECA /* Build configuration list for PBXNativeTarget "SodokuPuzzleGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7BD0B32C9CC7DD0077DECA /* Debug */,
+				FE7BD0B42C9CC7DD0077DECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7BD0B52C9CC7DD0077DECA /* Build configuration list for PBXNativeTarget "SodokuPuzzleGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7BD0B62C9CC7DD0077DECA /* Debug */,
+				FE7BD0B72C9CC7DD0077DECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7BD0B82C9CC7DD0077DECA /* Build configuration list for PBXNativeTarget "SodokuPuzzleGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7BD0B92C9CC7DD0077DECA /* Debug */,
+				FE7BD0BA2C9CC7DD0077DECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7BD0852C9CC7DA0077DECA /* Project object */;
+}
