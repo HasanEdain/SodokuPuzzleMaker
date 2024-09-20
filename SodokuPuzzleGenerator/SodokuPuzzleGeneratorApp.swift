@@ -11,7 +11,7 @@ import SwiftUI
 struct SodokuPuzzleGeneratorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreateView(puzzle: Puzzle(), solved: Puzzle())
         }
     }
 }
