@@ -10,10 +10,8 @@ import Foundation
 class Puzzle:CustomDebugStringConvertible {
     var cells: [[Int]]
 
-//MARK: - Init
-
     var debugDescription: String {
-        var output = ""
+        var output = "[\n"
         for index in 0...8 {
             let array = cells[index]
             for xIndex in 0...8 {
@@ -24,10 +22,12 @@ class Puzzle:CustomDebugStringConvertible {
             }
             output.append("\n")
         }
+        output.append("]")
 
         return output
     }
 
+        //MARK: - Init
     init() {
         self.cells = [[Int]]()
         for yIndex in 0..<9 {
@@ -115,10 +115,15 @@ class Puzzle:CustomDebugStringConvertible {
             puzzle.placeRandom()
         }
 
-        while solvable == false {
+
+        var count = 0
+        let maxCount = minHints * 50
+
+        while solvable == false && count < maxCount {
             puzzle.placeRandom()
             let solved = Backsolver.solve(puzzle: puzzle)
             solvable = (solved.anyZeros() == false)
+            count = count + 1
         }
         print("\(puzzle)")
         return puzzle

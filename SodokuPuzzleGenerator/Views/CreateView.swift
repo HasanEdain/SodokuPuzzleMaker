@@ -53,8 +53,6 @@ struct CreateView: View {
         let rendererSolved = ImageRenderer(content: solvedPuzzleView)
         let redererPuzzle = ImageRenderer(content: puzzleView)
 
-        let folder = "Sodoku"
-
         if let mySaveCount = Int(saveCoundString) {
             saveCount = mySaveCount
         }
@@ -62,6 +60,8 @@ struct CreateView: View {
         let homeURL = FileManager.default.homeDirectoryForCurrentUser
         let solvedUrl = homeURL.appending(path: "\(filenameString)_\(saveCount)_solved.pdf")
         let unsolvedUrl = homeURL.appending(path: "\(filenameString)_\(saveCount)_puzzle.pdf")
+        let textUrl = homeURL.appending(path: "\(filenameString)_\(saveCount)_puzzle.txt")
+        saveText(url: textUrl)
 
         rendererSolved.render { size, renderInContext in
             var box = CGRect(
@@ -106,7 +106,26 @@ struct CreateView: View {
     @ViewBuilder var puzzleView: some View {
         PuzzleView(puzzle: puzzle)
     }
+
+    func saveText(url: URL) {
+            // Create data to be saved
+        let myString = puzzle.debugDescription
+        guard let data = myString.data(using: .utf8) else {
+            print("Unable to convert string to data")
+            return
+        }
+            // Save the data
+        do {
+            try data.write(to: url)
+            print("File saved: \(url.absoluteURL)")
+        } catch {
+                // Catch any errors
+            print(error.localizedDescription)
+        }
+    }
 }
+
+
 
 #Preview {
     let puzzle: Puzzle = Puzzle.midSodoku
