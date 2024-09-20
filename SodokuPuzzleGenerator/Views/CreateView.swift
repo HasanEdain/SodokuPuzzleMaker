@@ -12,6 +12,7 @@ struct CreateView: View {
     @State var solved: Puzzle
     @State var minimumHints: Int = 15
     @State var saveCount: Int = 0
+    @State var saveCoundString: String = "0"
     @State var filenameString: String = "Sodoku"
 
     var body: some View {
@@ -19,6 +20,12 @@ struct CreateView: View {
             Form {
                 Button("Create") {
                     create()
+                }
+                TextField(text: $saveCoundString) {
+                    Label(
+                        title: { Text("Save Count") },
+                        icon: { Image(systemName: "number") }
+                    )
                 }
                 Button("Save") {
                     save()
@@ -48,9 +55,11 @@ struct CreateView: View {
 
         let folder = "Sodoku"
 
+        if let mySaveCount = Int(saveCoundString) {
+            saveCount = mySaveCount
+        }
+
         let homeURL = FileManager.default.homeDirectoryForCurrentUser
-        let desktopURL = homeURL.appendingPathComponent("Desktop")
-        let folderURL = desktopURL.appendingPathComponent(folder)
         let solvedUrl = homeURL.appending(path: "\(filenameString)_\(saveCount)_solved.pdf")
         let unsolvedUrl = homeURL.appending(path: "\(filenameString)_\(saveCount)_puzzle.pdf")
 
@@ -87,6 +96,7 @@ struct CreateView: View {
         }
 
         self.saveCount = saveCount + 1
+        self.saveCoundString = String(saveCount)
     }
 
     @ViewBuilder var solvedPuzzleView: some View {
